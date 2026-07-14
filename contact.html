@@ -3,65 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodeCraft Hub | Contact</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="page-shell">
-    <header class="site-header">
-      <div class="brand">Code<span>Craft</span> Hub</div>
-      <nav class="nav-links">
+  <div class="container">
+    <header>
+      <h1>Contact Me</h1>
+      <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
         <a href="skills.html">Skills</a>
         <a href="gallery.html">Gallery</a>
-        <a class="active" href="contact.html">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
 
-    <section class="contact-grid">
-      <article class="contact-card">
-        <div class="eyebrow">Contact Form</div>
-        <h1>Let's connect</h1>
-        <p>
-          Use this simple form to send a message, ask a question, or share an
-          opportunity related to web development, Java, or C++.
-        </p>
-        <div class="tag-list">
-          <span class="tag">Web Projects</span>
-          <span class="tag">Java Practice</span>
-          <span class="tag">C++ Learning</span>
-        </div>
-      </article>
+    <h2>Contact Form</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
 
-      <article class="contact-card">
-        <form>
-          <div>
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name">
-          </div>
-          <div>
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email">
-          </div>
-          <div>
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="What is this about?">
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Write your message here"></textarea>
-          </div>
-          <div class="button-row">
-            <button class="button primary" type="submit">Send Message</button>
-          </div>
-        </form>
-      </article>
-    </section>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
 
-    <footer class="footer">
-      This form is ready for styling and can later be connected to a backend.
-    </footer>
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="footer">
+      Contact page.
+    </div>
   </div>
 </body>
 </html>
