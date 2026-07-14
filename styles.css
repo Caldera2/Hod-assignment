@@ -47,6 +47,18 @@ p {
   line-height: 1.6;
 }
 
+.live-link-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e8f0ff;
+  border: 1px solid #99b3ff;
+}
+
+.live-link {
+  color: #3366cc;
+  font-weight: bold;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
