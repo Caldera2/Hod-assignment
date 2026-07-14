@@ -33,9 +33,31 @@
       <button type="submit">Submit</button>
     </form>
 
+    <h2>Comments</h2>
+    <div class="comment-box">
+      <p class="small-text">People can leave a comment here and it will show below on this browser.</p>
+      <form id="commentForm">
+        <label for="commentName">Your Name</label>
+        <input type="text" id="commentName" name="commentName" required>
+
+        <label for="commentText">Your Comment</label>
+        <textarea id="commentText" name="commentText" required></textarea>
+
+        <button type="submit">Post Comment</button>
+      </form>
+    </div>
+
+    <div class="comment-list">
+      <h3>Saved Comments</h3>
+      <div id="commentsContainer">
+        <p class="small-text">No comments yet.</p>
+      </div>
+    </div>
+
     <div class="footer">
       Contact page.
     </div>
   </div>
+  <script src="comments.js"></script>
 </body>
 </html>

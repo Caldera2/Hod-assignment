@@ -69,7 +69,9 @@ td {
   text-align: left;
 }
 
-.gallery-box {
+.gallery-box,
+.comment-box,
+.comment-list {
   background-color: #e8f0ff;
   border: 1px solid #99b3ff;
   padding: 15px;
@@ -93,6 +95,7 @@ textarea {
   padding: 10px;
   border: 1px solid #999999;
   font-size: 15px;
+  box-sizing: border-box;
 }
 
 textarea {
@@ -110,6 +113,25 @@ button {
 
 button:hover {
   background-color: #264d99;
+}
+
+.comment-item {
+  border-bottom: 1px solid #b7c9ee;
+  padding: 10px 0;
+}
+
+.comment-item:last-child {
+  border-bottom: none;
+}
+
+.comment-name {
+  font-weight: bold;
+  color: #264d99;
+}
+
+.small-text {
+  font-size: 14px;
+  color: #555555;
 }
 
 .footer {
